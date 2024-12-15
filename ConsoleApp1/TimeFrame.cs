@@ -1,6 +1,9 @@
-﻿public enum TimeFrame
-{
-    Year,
-    TwoYears,
-    Long
+﻿namespace ConsoleApp1 {
+    public enum TimeFrame
+    {
+        Year,
+        TwoYears,
+        Long
+    }
 }
+

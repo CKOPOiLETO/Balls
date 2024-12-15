@@ -1,113 +1,88 @@
-﻿using System;
+﻿using ConsoleApp1;
+using System;
+using System.Collections;
 
-namespace ResearchTeamApp
+namespace ConsoleApp1
 {
     class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
-            
-            ResearchTeam team = new ResearchTeam();
-            Console.WriteLine("ResearchTeam (ToShortString):");
-            Console.WriteLine(team.ToShortString());
-
-            
-            Console.WriteLine("\nЗначения индексатора:");
-            Console.WriteLine($"TimeFrame.Year: {team[TimeFrame.Year]}");
-            Console.WriteLine($"TimeFrame.TwoYears: {team[TimeFrame.TwoYears]}");
-            Console.WriteLine($"TimeFrame.Long: {team[TimeFrame.Long]}");
-
-            
-            team.ResearchTopic = "Stas Development";
-            team.Organization = "Open Pivo";
-            team.RegistrationNumber = 12345;
-            team.Duration = TimeFrame.Long;
-            Console.WriteLine("\nResearchTeam (ToString) после присвоения значений:");
-            Console.WriteLine(team.ToString());
-
-            
-            Paper paper1 = new Paper("Paper 1", new Person("Антон", "Чигур", new DateTime(1990, 5, 24)), new DateTime(2022, 1, 10));
-            Paper paper2 = new Paper("Paper 2", new Person("Евгений", "Поносенков", new DateTime(1985, 8, 12)), new DateTime(2023, 6, 15));
-            Paper paper3 = new Paper("Paper 3", new Person("Александр", "Каменный", new DateTime(1993, 2, 20)), new DateTime(2021, 11, 5));
-            team.AddPapers(paper1, paper2, paper3);
-            Console.WriteLine("\nResearchTeam после добавления публикаций:");
-            Console.WriteLine(team.ToString());
-
-            
-            Console.WriteLine("\nПубликация с самой поздней датой:");
-            Console.WriteLine(team.LatestPaper?.ToString() ?? "Нет публикаций");
-
-            
-            Console.WriteLine("\nСравнение времени выполнения операций с массивами:");
-            CompareArrayPerformance();
-        }
-
-        static void CompareArrayPerformance()
-        {
-            int nrow = 100; 
-            int ncolumn = 100; 
-            int totalElements = nrow * ncolumn;
-
-            
-            Paper[] oneDimArray = new Paper[totalElements];
-            for (int i = 0; i < totalElements; i++)
+            try
             {
-                oneDimArray[i] = new Paper();
-            }
+                //1 Создать два объекта типа Team с совпадающими данными и проверить,
+                //что ссылки на объекты не равны, а объекты равны, вывести значения
+                //хэш - кодов для объектов.
+                Team team1 = new Team("Org1", 123);
+                Team team2 = new Team("Org1", 123);
 
-            
-            Paper[,] twoDimArray = new Paper[nrow, ncolumn];
-            for (int i = 0; i < nrow; i++)
-            {
-                for (int j = 0; j < ncolumn; j++)
+                Console.WriteLine($"Are references equal? {ReferenceEquals(team1, team2)}");
+                Console.WriteLine($"Are objects equal? {team1 == team2}");
+                Console.WriteLine($"Hash code team1: {team1.GetHashCode()}, team2: {team2.GetHashCode()}");
+
+                //2 В блоке try/catch присвоить свойству с номером регистрации
+                //некорректное значение, в обработчике исключения вывести сообщение,
+                //переданное через объект-исключение.
+                try
                 {
-                    twoDimArray[i, j] = new Paper();
+                    team1.RegistrationNumber = -10;
+                }
+                catch (ArgumentException ex)
+                {
+                    Console.WriteLine($"Exception: {ex.Message}");
+                }
+
+                //3 Создать объект типа ResearchTeam, добавить элементы в список
+                //публикаций и список участников проекта и вывести данные объекта
+                //ResearchTeam.
+                ResearchTeam researchTeam = new ResearchTeam("AI Research", "TechCorp", 456, TimeFrame.TwoYears);
+                researchTeam.AddMembers(new Person("Alice", "Smith", DateTime.Now), new Person("Bob", "Johnson", DateTime.Now));
+                researchTeam.AddPapers(
+                    new Paper("AI in Healthcare", new Person("Dr. Emily", "Brown", DateTime.Now), new DateTime(2021, 5, 1)),
+                    new Paper("Future of AI", new Person("Dr. John", "Davis", DateTime.Now), new DateTime(2023, 3, 15))
+                );
+
+                Console.WriteLine("Research Team Data:");
+                Console.WriteLine(researchTeam);
+
+                //4 Вывести значение свойства Team для объекта типа ResearchTeam.
+                Console.WriteLine("Team Data:");
+                Console.WriteLine(researchTeam.OrganizationName);
+
+                //5 С помощью метода DeepCopy() создать полную копию объекта
+                //ResearchTeam.Изменить данные в исходном объекте ResearchTeam и
+                //вывести копию и исходный объект, полная копия исходного объекта
+                //должна остаться без изменений.
+                ResearchTeam copy = (ResearchTeam)researchTeam.DeepCopy();
+                researchTeam.ResearchTopic = "Changed Topic";
+                researchTeam.OrganizationName = "NewOrg";
+                Console.WriteLine("Original Research Team:");
+                Console.WriteLine(researchTeam);
+                Console.WriteLine("Copied Research Team:");
+                Console.WriteLine(copy);
+
+                //6 С помощью оператора foreach для итератора, определенного в классе
+                //ResearchTeam, вывести список участников проекта, которые не имеют
+                //публикаций.
+                Console.WriteLine("Members without publications:");
+                foreach (Person member in researchTeam)
+                {
+                    Console.WriteLine(member);
+                }
+
+                //7 С помощью оператора foreach для итератора с параметром,
+                //определенного в классе ResearchTeam, вывести список всех
+                //публикаций, вышедших за последние два года.
+                Console.WriteLine("Recent Publications:");
+                foreach (Paper paper in researchTeam.GetPublicationsInLastYears(2))
+                {
+                    Console.WriteLine(paper);
                 }
             }
-
-            
-            Paper[][] jaggedArray = new Paper[nrow][];
-            for (int i = 0; i < nrow; i++)
+            catch (Exception ex)
             {
-                jaggedArray[i] = new Paper[ncolumn];
-                for (int j = 0; j < ncolumn; j++)
-                {
-                    jaggedArray[i][j] = new Paper();
-                }
+                Console.WriteLine($"Unhandled exception: {ex.Message}");
             }
-
-            int start = Environment.TickCount;
-            for (int i = 0; i < totalElements; i++)
-            {
-                oneDimArray[i].Title = "Updated Title";
-            }
-            int end = Environment.TickCount;
-            Console.WriteLine($"Время для одномерного массива: {end - start} мс");
-
-            start = Environment.TickCount;
-            for (int i = 0; i < nrow; i++)
-            {
-                for (int j = 0; j < ncolumn; j++)
-                {
-                    twoDimArray[i, j].Title = "Updated Title";
-                }
-            }
-            end = Environment.TickCount;
-            Console.WriteLine($"Время для двумерного массива: {end - start} мс");
-
-            start = Environment.TickCount;
-            for (int i = 0; i < nrow; i++)
-            {
-                for (int j = 0; j < ncolumn; j++)
-                {
-                    jaggedArray[i][j].Title = "Updated Title";
-                }
-            }
-            end = Environment.TickCount;
-            Console.WriteLine($"Время для ступенчатого массива: {end - start} мс");
-
-            Console.WriteLine($"\nЧисло строк: {nrow}, Число столбцов: {ncolumn}");
         }
     }
 }
-

@@ -1,50 +1,69 @@
-﻿using System;
+﻿using ConsoleApp1;
+using System;
 
-public class Person
+namespace ConsoleApp1
 {
-    private string firstName;
-    private string lastName;
-    private DateTime birthDate;
-
-    public Person(string firstName, string lastName, DateTime birthDate)
+    public class Person : INameAndCopy
     {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.birthDate = birthDate;
-    }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public DateTime BirthDate { get; set; }
 
-    public Person()
-    {
-        firstName = "Имя";
-        lastName = "Фамилия";
-        birthDate = new DateTime(2000, 1, 1);
-    }
+        public string Name
+        {
+            get => $"{FirstName} {LastName}";
+            set
+            {
+                var parts = value.Split(' ');
+                if (parts.Length >= 2)
+                {
+                    FirstName = parts[0];
+                    LastName = parts[1];
+                }
+            }
+        }
 
-    public string FirstName
-    {
-        get { return firstName; }
-        set { firstName = value; }
-    }
+        public Person(string firstName, string lastName, DateTime birthDate)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+            BirthDate = birthDate;
+        }
 
-    public string LastName
-    {
-        get { return lastName; }
-        set { lastName = value; }
-    }
+        public Person() : this("DefaultFirstName", "DefaultLastName", DateTime.Now) { }
 
-    public DateTime BirthDate
-    {
-        get { return birthDate; }
-        set { birthDate = value; }
-    }
+        public override bool Equals(object obj)
+        {
+            if (obj is Person other)
+            {
+                return FirstName == other.FirstName && LastName == other.LastName && BirthDate == other.BirthDate;
+            }
+            return false;
+        }
 
-    public override string ToString()
-    {
-        return $"Имя: {firstName}, Фамилия: {lastName}, Дата рождения: {birthDate.ToShortDateString()}";
-    }
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(FirstName, LastName, BirthDate);
+        }
 
-    public virtual string ToShortString()
-    {
-        return $"{firstName} {lastName}";
+        public override string ToString()
+        {
+            return $"{FirstName} {LastName}, Born: {BirthDate.ToShortDateString()}";
+        }
+
+        public static bool operator ==(Person left, Person right)
+        {
+            return Equals(left, right);
+        }
+
+        public static bool operator !=(Person left, Person right)
+        {
+            return !Equals(left, right);
+        }
+
+        public virtual object DeepCopy()
+        {
+            return new Person(FirstName, LastName, BirthDate);
+        }
     }
 }

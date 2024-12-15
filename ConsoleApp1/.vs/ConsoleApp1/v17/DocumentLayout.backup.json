@@ -1,25 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHub\\Balls\\ConsoleApp1\\",
+  "WorkspaceRootPath": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|d:\\github\\balls\\consoleapp1\\paper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|solutionrelative:paper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|d:\\github\\balls\\consoleapp1\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|solutionrelative:person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|d:\\github\\balls\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|c:\\users\\karan\\source\\repos\\balls\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|d:\\github\\balls\\consoleapp1\\timeframe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|c:\\users\\karan\\source\\repos\\balls\\consoleapp1\\timeframe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|solutionrelative:timeframe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|d:\\github\\balls\\consoleapp1\\researchteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|c:\\users\\karan\\source\\repos\\balls\\consoleapp1\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|solutionrelative:team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|c:\\users\\karan\\source\\repos\\balls\\consoleapp1\\inameandcopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|solutionrelative:inameandcopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|c:\\users\\karan\\source\\repos\\balls\\consoleapp1\\paper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|solutionrelative:paper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|c:\\users\\karan\\source\\repos\\balls\\consoleapp1\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|solutionrelative:person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|c:\\users\\karan\\source\\repos\\balls\\consoleapp1\\researchteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|solutionrelative:researchteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,65 +53,99 @@
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Person.cs",
-              "DocumentMoniker": "D:\\GitHub\\Balls\\ConsoleApp1\\Person.cs",
-              "RelativeDocumentMoniker": "Person.cs",
-              "ToolTip": "D:\\GitHub\\Balls\\ConsoleApp1\\Person.cs",
-              "RelativeToolTip": "Person.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwDIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T07:05:12.702Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "INameAndCopy.cs",
+              "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\INameAndCopy.cs",
+              "RelativeDocumentMoniker": "INameAndCopy.cs",
+              "ToolTip": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\INameAndCopy.cs*",
+              "RelativeToolTip": "INameAndCopy.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T17:25:52.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\Team.cs",
+              "RelativeDocumentMoniker": "Team.cs",
+              "ToolTip": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\Team.cs*",
+              "RelativeToolTip": "Team.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T17:24:37.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\Person.cs",
+              "RelativeDocumentMoniker": "Person.cs",
+              "ToolTip": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\Person.cs*",
+              "RelativeToolTip": "Person.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:05:12.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Paper.cs",
-              "DocumentMoniker": "D:\\GitHub\\Balls\\ConsoleApp1\\Paper.cs",
+              "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\Paper.cs",
               "RelativeDocumentMoniker": "Paper.cs",
-              "ToolTip": "D:\\GitHub\\Balls\\ConsoleApp1\\Paper.cs",
-              "RelativeToolTip": "Paper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\Paper.cs*",
+              "RelativeToolTip": "Paper.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T07:04:29.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ResearchTeam.cs",
-              "DocumentMoniker": "D:\\GitHub\\Balls\\ConsoleApp1\\ResearchTeam.cs",
+              "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\ResearchTeam.cs",
               "RelativeDocumentMoniker": "ResearchTeam.cs",
-              "ToolTip": "D:\\GitHub\\Balls\\ConsoleApp1\\ResearchTeam.cs",
-              "RelativeToolTip": "ResearchTeam.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\ResearchTeam.cs*",
+              "RelativeToolTip": "ResearchTeam.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T07:04:03.742Z"
+              "WhenOpened": "2024-11-20T07:04:03.742Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "TimeFrame.cs",
-              "DocumentMoniker": "D:\\GitHub\\Balls\\ConsoleApp1\\TimeFrame.cs",
+              "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\TimeFrame.cs",
               "RelativeDocumentMoniker": "TimeFrame.cs",
-              "ToolTip": "D:\\GitHub\\Balls\\ConsoleApp1\\TimeFrame.cs",
-              "RelativeToolTip": "TimeFrame.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\TimeFrame.cs*",
+              "RelativeToolTip": "TimeFrame.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T07:03:20.05Z"
+              "WhenOpened": "2024-11-20T07:03:20.05Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\Balls\\ConsoleApp1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\GitHub\\Balls\\ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAwwHQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T07:01:40.621Z"
+              "WhenOpened": "2024-11-20T07:01:40.621Z",
+              "EditorCaption": ""
             }
           ]
         },
