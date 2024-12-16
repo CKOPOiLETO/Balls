@@ -11,7 +11,6 @@ namespace ConsoleApp1
         private TimeFrame researchDuration;
         private ArrayList members;
         private ArrayList publications;
-        private Team BaseTeam;
 
         public ResearchTeam(string topic, string organization, int regNumber, TimeFrame duration)
             : base(organization, regNumber)
@@ -20,17 +19,9 @@ namespace ConsoleApp1
             researchDuration = duration;
             members = new ArrayList();
             publications = new ArrayList();
-            BaseTeam = new Team(organization, regNumber);
         }
 
         public ResearchTeam() : this("Default Topic", "Default Organization", 1, TimeFrame.Year) { }
-
-        public Team Team { get { return BaseTeam; }
-            set {
-                BaseTeam.Name = value.Name;
-                BaseTeam.RegistrationNumber = value.RegistrationNumber;
-            }
-        }
 
         public string ResearchTopic
         {
@@ -115,24 +106,91 @@ namespace ConsoleApp1
 
         public IEnumerator GetEnumerator()
         {
+            return new ResearchTeamEnumerator(members, publications);
+        }
+
+        public IEnumerable GetMembersWithMultiplePublications()
+        {
             foreach (Person person in members)
             {
-                if (publications.Count == 0)
+                int publicationCount = 0;
+                foreach (Paper paper in publications)
+                {
+                    if (paper.Author == person)
+                    {
+                        publicationCount++;
+                    }
+                }
+                if (publicationCount > 1)
                 {
                     yield return person;
                 }
             }
         }
 
-        public IEnumerable GetPublicationsInLastYears(int years)
+        public IEnumerable GetRecentPublications()
         {
-            DateTime threshold = DateTime.Now.AddYears(-years);
+            DateTime oneYearAgo = DateTime.Now.AddYears(-1);
             foreach (Paper paper in publications)
             {
-                if (paper.PublicationDate >= threshold)
+                if (paper.PublicationDate >= oneYearAgo)
                 {
                     yield return paper;
                 }
+            }
+        }
+
+        private class ResearchTeamEnumerator : IEnumerator
+        {
+            private readonly ArrayList members;
+            private readonly ArrayList publications;
+            private int position = -1;
+
+            public ResearchTeamEnumerator(ArrayList members, ArrayList publications)
+            {
+                this.members = members;
+                this.publications = publications;
+            }
+
+            public object Current
+            {
+                get
+                {
+                    if (position < 0 || position >= members.Count)
+                    {
+                        throw new InvalidOperationException();
+                    }
+                    Person currentPerson = (Person)members[position];
+                    foreach (Paper paper in publications)
+                    {
+                        if (paper.Author == currentPerson)
+                        {
+                            return currentPerson;
+                        }
+                    }
+                    return null;
+                }
+            }
+
+            public bool MoveNext()
+            {
+                while (++position < members.Count)
+                {
+                    Person currentPerson = (Person)members[position];
+                    foreach (Paper paper in publications)
+                    {
+                        if (paper.Author == currentPerson)
+                        {
+                            return true;
+                        }
+                    }
+                }
+                return false;
+            }
+
+            public void Reset()
+            {
+                position = -1;
             }
         }
     }

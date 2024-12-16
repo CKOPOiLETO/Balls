@@ -10,7 +10,8 @@ namespace ConsoleApp1
         {
             try
             {
-                //1 Создать два объекта типа Team с совпадающими данными и проверить,
+                //основные задания
+                /*//1 Создать два объекта типа Team с совпадающими данными и проверить,
                 //что ссылки на объекты не равны, а объекты равны, вывести значения
                 //хэш - кодов для объектов.
                 Team team1 = new Team("Org1", 123);
@@ -75,6 +76,43 @@ namespace ConsoleApp1
                 //публикаций, вышедших за последние два года.
                 Console.WriteLine("Recent Publications:");
                 foreach (Paper paper in researchTeam.GetPublicationsInLastYears(2))
+                {
+                    Console.WriteLine(paper);
+                }*/
+                //доп задания
+                // Создаем объект ResearchTeam и заполняем данными
+                ResearchTeam team = new ResearchTeam("AI Research", "TechCorp", 42, TimeFrame.TwoYears);
+
+                // Добавляем участников
+                Person alice = new Person("Alice", "Johnson", new DateTime(1990, 5, 1));
+                Person bob = new Person("Bob", "Smith", new DateTime(1985, 10, 15));
+                Person charlie = new Person("Charlie", "Brown", new DateTime(1992, 3, 20));
+                team.AddMembers(alice, bob, charlie);
+
+                // Добавляем публикации
+                team.AddPapers(
+                    new Paper("AI in Healthcare", alice, new DateTime(2022, 1, 15)),
+                    new Paper("Deep Learning Advances", alice, new DateTime(2023, 6, 10)),
+                    new Paper("Quantum Computing Basics", bob, new DateTime(2023, 3, 25))
+                );
+
+                // Задание 25: Вывести список участников, у которых есть публикации
+                Console.WriteLine("Participants with publications:");
+                foreach (Person person in team)
+                {
+                    Console.WriteLine(person);
+                }
+
+                // Задание 26: Вывести список участников, имеющих более одной публикации
+                Console.WriteLine("\nParticipants with multiple publications:");
+                foreach (Person person in team.GetMembersWithMultiplePublications())
+                {
+                    Console.WriteLine(person);
+                }
+
+                // Задание 27: Вывести список публикаций, вышедших за последний год
+                Console.WriteLine("\nPublications from the last year:");
+                foreach (Paper paper in team.GetRecentPublications())
                 {
                     Console.WriteLine(paper);
                 }
