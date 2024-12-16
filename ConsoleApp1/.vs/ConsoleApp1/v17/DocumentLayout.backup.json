@@ -15,20 +15,20 @@
       "RelativeMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|solutionrelative:team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|c:\\users\\karan\\source\\repos\\balls\\consoleapp1\\inameandcopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|solutionrelative:inameandcopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|c:\\users\\karan\\source\\repos\\balls\\consoleapp1\\paper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|solutionrelative:paper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|c:\\users\\karan\\source\\repos\\balls\\consoleapp1\\researchteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|solutionrelative:researchteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|c:\\users\\karan\\source\\repos\\balls\\consoleapp1\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|solutionrelative:person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|c:\\users\\karan\\source\\repos\\balls\\consoleapp1\\researchteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|solutionrelative:researchteam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|c:\\users\\karan\\source\\repos\\balls\\consoleapp1\\paper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|solutionrelative:paper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|c:\\users\\karan\\source\\repos\\balls\\consoleapp1\\inameandcopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB0A924-662D-45C4-B1D6-98B3D5B86526}|ConsoleApp1.csproj|solutionrelative:inameandcopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,12 +58,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "INameAndCopy.cs",
               "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\INameAndCopy.cs",
               "RelativeDocumentMoniker": "INameAndCopy.cs",
-              "ToolTip": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\INameAndCopy.cs*",
-              "RelativeToolTip": "INameAndCopy.cs*",
+              "ToolTip": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\INameAndCopy.cs",
+              "RelativeToolTip": "INameAndCopy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T17:25:52.317Z",
@@ -75,8 +75,8 @@
               "Title": "Team.cs",
               "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\Team.cs",
               "RelativeDocumentMoniker": "Team.cs",
-              "ToolTip": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\Team.cs*",
-              "RelativeToolTip": "Team.cs*",
+              "ToolTip": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\Team.cs",
+              "RelativeToolTip": "Team.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T17:24:37.323Z",
@@ -84,25 +84,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Person.cs",
               "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\Person.cs",
               "RelativeDocumentMoniker": "Person.cs",
-              "ToolTip": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\Person.cs*",
-              "RelativeToolTip": "Person.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\Person.cs",
+              "RelativeToolTip": "Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T07:05:12.702Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Paper.cs",
               "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\Paper.cs",
               "RelativeDocumentMoniker": "Paper.cs",
-              "ToolTip": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\Paper.cs*",
-              "RelativeToolTip": "Paper.cs*",
+              "ToolTip": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\Paper.cs",
+              "RelativeToolTip": "Paper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T07:04:29.844Z",
@@ -110,12 +110,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "ResearchTeam.cs",
               "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\ResearchTeam.cs",
               "RelativeDocumentMoniker": "ResearchTeam.cs",
-              "ToolTip": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\ResearchTeam.cs*",
-              "RelativeToolTip": "ResearchTeam.cs*",
+              "ToolTip": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\ResearchTeam.cs",
+              "RelativeToolTip": "ResearchTeam.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T07:04:03.742Z",
@@ -127,9 +127,9 @@
               "Title": "TimeFrame.cs",
               "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\TimeFrame.cs",
               "RelativeDocumentMoniker": "TimeFrame.cs",
-              "ToolTip": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\TimeFrame.cs*",
-              "RelativeToolTip": "TimeFrame.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\TimeFrame.cs",
+              "RelativeToolTip": "TimeFrame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T07:03:20.05Z",
               "EditorCaption": ""
@@ -142,7 +142,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\karan\\source\\repos\\Balls\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAowEsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T07:01:40.621Z",
               "EditorCaption": ""
