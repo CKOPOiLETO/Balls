@@ -11,6 +11,7 @@ namespace ConsoleApp1
         private TimeFrame researchDuration;
         private ArrayList members;
         private ArrayList publications;
+        private Team BaseTeam;
 
         public ResearchTeam(string topic, string organization, int regNumber, TimeFrame duration)
             : base(organization, regNumber)
@@ -19,9 +20,17 @@ namespace ConsoleApp1
             researchDuration = duration;
             members = new ArrayList();
             publications = new ArrayList();
+            BaseTeam = new Team(organization, regNumber);
         }
 
         public ResearchTeam() : this("Default Topic", "Default Organization", 1, TimeFrame.Year) { }
+
+        public Team Team { get { return BaseTeam; }
+            set {
+                BaseTeam.Name = value.Name;
+                BaseTeam.RegistrationNumber = value.RegistrationNumber;
+            }
+        }
 
         public string ResearchTopic
         {

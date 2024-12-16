@@ -3,6 +3,7 @@
 namespace ConsoleApp1
 {
     public class Team : INameAndCopy
+
     {
         protected string organizationName;
         protected int registrationNumber;
@@ -19,7 +20,7 @@ namespace ConsoleApp1
 
         public Team() : this("Default Organization", 1) { }
 
-        public string OrganizationName
+        public string Name
         {
             get => organizationName;
             set => organizationName = value;
@@ -38,7 +39,7 @@ namespace ConsoleApp1
             }
         }
 
-        public string Name { get; set; }
+        //public string Name { get; set; }
 
         public virtual object DeepCopy()
         {
