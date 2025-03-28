@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\karan\\source\\repos\\kpyap24\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B17E8D50-E1C4-4FBC-B500-9EE4D53502EF}|kpyap24\\kpyap24.csproj|C:\\Users\\karan\\source\\repos\\kpyap24\\kpyap24\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B17E8D50-E1C4-4FBC-B500-9EE4D53502EF}|kpyap24\\kpyap24.csproj|solutionrelative:kpyap24\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17E8D50-E1C4-4FBC-B500-9EE4D53502EF}|kpyap24\\kpyap24.csproj|C:\\Users\\karan\\source\\repos\\kpyap24\\kpyap24\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17E8D50-E1C4-4FBC-B500-9EE4D53502EF}|kpyap24\\kpyap24.csproj|solutionrelative:kpyap24\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17E8D50-E1C4-4FBC-B500-9EE4D53502EF}|kpyap24\\kpyap24.csproj|C:\\Users\\karan\\source\\repos\\kpyap24\\kpyap24\\colordialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B17E8D50-E1C4-4FBC-B500-9EE4D53502EF}|kpyap24\\kpyap24.csproj|solutionrelative:kpyap24\\colordialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17E8D50-E1C4-4FBC-B500-9EE4D53502EF}|kpyap24\\kpyap24.csproj|c:\\users\\karan\\source\\repos\\kpyap24\\kpyap24\\colormenuwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17E8D50-E1C4-4FBC-B500-9EE4D53502EF}|kpyap24\\kpyap24.csproj|solutionrelative:kpyap24\\colormenuwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17E8D50-E1C4-4FBC-B500-9EE4D53502EF}|kpyap24\\kpyap24.csproj|C:\\Users\\karan\\source\\repos\\kpyap24\\kpyap24\\colordialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B17E8D50-E1C4-4FBC-B500-9EE4D53502EF}|kpyap24\\kpyap24.csproj|solutionrelative:kpyap24\\colordialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B17E8D50-E1C4-4FBC-B500-9EE4D53502EF}|kpyap24\\kpyap24.csproj|C:\\Users\\karan\\source\\repos\\kpyap24\\kpyap24\\colormenuwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B17E8D50-E1C4-4FBC-B500-9EE4D53502EF}|kpyap24\\kpyap24.csproj|solutionrelative:kpyap24\\colormenuwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ColorDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\kpyap24\\kpyap24\\ColorDialog.xaml.cs",
+              "RelativeDocumentMoniker": "kpyap24\\ColorDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\karan\\source\\repos\\kpyap24\\kpyap24\\ColorDialog.xaml.cs",
+              "RelativeToolTip": "kpyap24\\ColorDialog.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T06:15:57.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ColorDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\kpyap24\\kpyap24\\ColorDialog.xaml",
+              "RelativeDocumentMoniker": "kpyap24\\ColorDialog.xaml",
+              "ToolTip": "C:\\Users\\karan\\source\\repos\\kpyap24\\kpyap24\\ColorDialog.xaml",
+              "RelativeToolTip": "kpyap24\\ColorDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-20T06:15:35.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ColorMenuWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\kpyap24\\kpyap24\\ColorMenuWindow.xaml.cs",
+              "RelativeDocumentMoniker": "kpyap24\\ColorMenuWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\karan\\source\\repos\\kpyap24\\kpyap24\\ColorMenuWindow.xaml.cs",
+              "RelativeToolTip": "kpyap24\\ColorMenuWindow.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwBsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T06:14:59.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ColorMenuWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\kpyap24\\kpyap24\\ColorMenuWindow.xaml",
+              "RelativeDocumentMoniker": "kpyap24\\ColorMenuWindow.xaml",
+              "ToolTip": "C:\\Users\\karan\\source\\repos\\kpyap24\\kpyap24\\ColorMenuWindow.xaml",
+              "RelativeToolTip": "kpyap24\\ColorMenuWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-20T06:14:33.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\kpyap24\\kpyap24\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "kpyap24\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\karan\\source\\repos\\kpyap24\\kpyap24\\MainWindow.xaml*",
+              "RelativeToolTip": "kpyap24\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-20T06:06:39.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\karan\\source\\repos\\kpyap24\\kpyap24\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "kpyap24\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\karan\\source\\repos\\kpyap24\\kpyap24\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "kpyap24\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAABcAAAAAAAAAAAAWwCoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T06:06:39.236Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 137,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
